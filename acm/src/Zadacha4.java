@@ -1,9 +1,9 @@
 import java.util.*;
 import java.io.*;
 
-public class Main{ //имя класса должно быть Main
+public class Zadacha4 { //имя класса должно быть Zadacha4
     public static void main(String[] argv) throws IOException{
-        new Main().run();
+        new Zadacha4().run();
     }
     PrintWriter pw;
     Scanner sc;
