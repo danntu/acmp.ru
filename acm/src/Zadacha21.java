@@ -10,8 +10,8 @@ public class Zadacha21 {
         int b=in.nextInt();
         int c=in.nextInt();
 
-        int max = Math.max(Math.max(a,b),c);
-        int min = Math.min(Math.min(a,b),c);
+        int max = Math.abs(Math.max(Math.max(a,b),c));
+        int min = Math.abs(Math.min(Math.min(a,b),c));
         out.println(max-min);
 
         out.flush();
