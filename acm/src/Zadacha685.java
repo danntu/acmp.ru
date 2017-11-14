@@ -2,9 +2,9 @@ import java.util.*;
 import java.io.*;
 import java.util.Arrays;
 
-public class Zadacah685{
+public class Zadacha685{
     public static void main(String[] args) throws IOException{
-        new Zadacah685().run();
+        new Zadacha685().run();
     }
     PrintWriter pw;
     Scanner sc;
